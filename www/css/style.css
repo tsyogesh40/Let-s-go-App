@@ -1,0 +1,22 @@
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+#body {
+    background-color: ff00ff;
+}
+.ui-grid-top-panel {
+    background: black;
+    color: white;
+}/* Empty. Add your own CSS if you like */
+/*.scroll-content{
+  background-color: #00FA9A;
+}
+body {
+	background-image: url('img/bg2.gif') repeat-x;
+}*/

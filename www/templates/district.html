@@ -1,0 +1,127 @@
+<ion-view> 
+   
+     <ion-nav-title>
+        <span style="color:red" background-color:"blue">TAMILNADU</span>
+     </ion-nav-title>
+<br>
+
+
+<ion-header-bar class="bar bar-subheader item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input id="searchKey" type="search" placeholder="Search" ng-model="search.$" autocorrect="off" >
+            <button class="button button-clear" ng-click="clearSearch()">X</button>
+        </label>
+        <button class="button button-clear" ng-click="search()">Search</button>
+</ion-header-bar>
+    <ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
+<br><br>
+<div ng-controller="placesCtrl">
+           <div class="bar">
+                       Search: <input ng-model="query">
+                   </div>
+                   <ul class="">
+                       <li ng-repeat="place in places | filter:query">
+                           {{places.place}}
+
+                       </li>
+                   </ul>
+       </div><br><br><br><br>
+<button  class="button button-clear button-assertive" ng-Click = "ariyalur()"> 
+Ariyalur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "chennai()">
+Chennai
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "coimbatore()">
+Coimbatore
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "cuddalore()">
+Cuddalore
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "dharmapuri()">
+Dharmapuri
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "dindigul()">
+Dindigul
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "erode()">
+Erode
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "kanchipuram()">
+Kanchipuram
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "kanniyakumari()">
+Kanniyakumari
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "karur()">
+Karur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "krishnagiri()">
+Krishnagiri
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "madurai()">
+Madurai
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "nagapattinam()">
+Nagapattinam
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "namakkal()">
+Namakkal
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "perambalur()">
+Perambalur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "pudukottai()">
+Pudukottai
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "ramanadhapuram()">
+Ramanadhapuram
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "selam()">
+Selam
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "sivagangai()">
+Sivagangai
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "thanjavur()">
+Thanjavur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "theni()">
+Theni
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "thiruvallur()">
+Thiruvallur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "thiruvarur()">
+Thiruvarur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "thoothukudi()">
+Thoothukudi
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "tiruchirapalli()">
+Tiruchirapalli
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "thirunelveli()">
+Thirunelveli
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "tiruppur()">
+Tiruppur
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "tiruvannamalai()">
+Tiruvannamalai
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "udagamandalam()">
+Udagamandalam
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "vellore()">
+Vellore
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "vilupuram()">
+Vilupuram
+</button><br>
+<button class="button button-clear button-assertive" ng-Click = "virudhunagar()">
+Virudhunagar
+</button><br>
+ </ion-scroll>
+</ion-view>
